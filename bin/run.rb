@@ -1,3 +1,5 @@
 require_relative '../config/environment'
-
-puts "hello world"
+puts Applicant.all.map{|a|a.name}
+greet 
+insert
+options 
